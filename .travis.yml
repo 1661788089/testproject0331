@@ -13,6 +13,8 @@ script:
   # 这里编写测试代码的命令
   - echo "test code"
 
+
+
 after_success:
   # 当代码测试通过后执行的命令
   - docker build -t username/alpine .
